@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4 (1)" />
+  <component name="ProjectId" id="1hu2niKBPcBDnHvBkrR9v2P2Ifl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/htdocs/model/autoloader.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage" />
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\model\business" />
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8080">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="" />
+      <created>1600846824411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600846824411</updated>
+      <workItem from="1600846825448" duration="6370000" />
+      <workItem from="1601446272513" duration="346000" />
+      <workItem from="1601446763496" duration="7351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="163" key="#PHP" timestamp="1601446839473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601446839473" />
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601448602439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600853340793" />
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600853917038" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601448602439" />
+    <state x="-1167" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1600851607653">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1167" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600851607653" />
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1601458253485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600853949911" />
+    <state x="739" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601458253485" />
+    <state x="-1184" y="243" key="NewPhpClassDialog" timestamp="1600846851246">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1184" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600846851246" />
+    <state x="-1126" y="443" key="NewPhpFileDialog" timestamp="1600852414244">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600852414244" />
+  </component>
+</project>
