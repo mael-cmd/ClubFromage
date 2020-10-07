@@ -9,7 +9,7 @@ class Autoloader
     static function autoload($class)
     {
         $file = str_replace('\\', '/', $class);
-        $file = 'C:/Bitnami/wampstack-7.4.6-1/apps/ClubFromage/htdocs/'. $file . '.php';
+        $file = $file . '.php';
         return require $file;
         echo var_dump($file);
     }

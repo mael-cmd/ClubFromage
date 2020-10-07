@@ -3,7 +3,7 @@
 // require("model/business/membre.php");
 // require("model/business/pays.php");
 // require("model/business/avis.php");
-require('model/Autoloader.php');
+require('Autoloader.php');
 Autoloader::register();
 
 $t = array('identifiant'=>1,'Nom'=>'Camembert');
