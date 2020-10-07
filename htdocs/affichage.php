@@ -7,10 +7,10 @@ require('model/Autoloader.php');
 Autoloader::register();
 
 $t = array('identifiant'=>1,'Nom'=>'Camembert');
-$camembert = new \ClubFromage\model\business\fromage($t);
+$camembert = new \model\business\fromage($t);
 
 $t = array('identifiant'=>2,'Nom'=>'roquefort');
-$roquefort = new \ClubFromage\model\business\fromage($t);
+$roquefort = new \model\business\fromage($t);
 
 echo $camembert -> _Nom;
 echo $camembert -> _identifiant;
