@@ -1,0 +1,18 @@
+{
+  "name": "vendor_name/htdocs",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "SIO2",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {"model\\": "src/"}
+  }
+}

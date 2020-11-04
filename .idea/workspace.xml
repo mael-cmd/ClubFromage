@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="" />
+    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="Version 07/10 v2">
+      <change afterPath="$PROJECT_DIR$/htdocs/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClubFromage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClubFromage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/affichage.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/affichage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/model/business/avis.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/avis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/model/business/fromage.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/fromage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/model/business/membre.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/membre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/model/business/pays.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/pays.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/htdocs/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4 (1)" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4 (1)">
+    <include_path>
+      <path value="$PROJECT_DIR$/htdocs/vendor/composer" />
+      <path value="$PROJECT_DIR$/htdocs/vendor/monolog/monolog" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1hu2niKBPcBDnHvBkrR9v2P2Ifl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,15 +80,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/htdocs/model/autoloader.php" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\htdocs\log" />
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\htdocs" />
+      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\htdocs\src" />
       <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage" />
       <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\model\business" />
-      <recent name="C:\Bitnami\wampstack-7.4.6-1\apps\ClubFromage\model" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/htdocs/composer.json" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
@@ -43,14 +110,52 @@
       <updated>1600846824411</updated>
       <workItem from="1600846825448" duration="6370000" />
       <workItem from="1601446272513" duration="346000" />
-      <workItem from="1601446763496" duration="7351000" />
+      <workItem from="1601446763496" duration="7805000" />
+      <workItem from="1602060485509" duration="3327000" />
+      <workItem from="1604474431224" duration="6147000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 07/10">
+      <created>1602061062378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602061062378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Version 07/10 v2">
+      <created>1602063121588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602063121588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 07/10" />
+    <MESSAGE value="Version 07/10 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 07/10 v2" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="705" y="344" key="#Notifications" timestamp="1601459470649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="344" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459470649" />
     <state x="667" y="163" key="#PHP" timestamp="1601446839473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -65,11 +170,39 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1167" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600851607653" />
+    <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1604475720912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="432" key="ComposerInitDialogKey/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604475720912" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1601458253485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600853949911" />
     <state x="739" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601458253485" />
+    <state x="829" y="418" key="Github.ShareDialog" timestamp="1601459202688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="829" y="418" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459202688" />
+    <state x="745" y="218" key="Github.UntrackedFilesDialog" timestamp="1601459216808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="218" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459216808" />
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1601459556641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
+    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1601459556641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
+    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1601459556641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
+    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1601459556641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
     <state x="-1184" y="243" key="NewPhpClassDialog" timestamp="1600846851246">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -78,5 +211,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600852414244" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602061212449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602061212449" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602063181857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602063181857" />
   </component>
 </project>
