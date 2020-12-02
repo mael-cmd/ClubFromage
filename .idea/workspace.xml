@@ -19,23 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="Version 07/10 v2">
-      <change afterPath="$PROJECT_DIR$/htdocs/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/logs.log" afterDir="false" />
+    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="04/11 11h38">
+      <change afterPath="$PROJECT_DIR$/htdocs/src/model/business/iBusinessClass.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ClubFromage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClubFromage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htdocs/affichage.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/affichage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/model/business/avis.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/avis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/model/business/fromage.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/fromage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/model/business/membre.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/membre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/model/business/pays.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/pays.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/src/model/business/fromage.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/fromage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/src/model/business/membre.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/src/model/business/membre.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/htdocs/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -79,7 +78,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/htdocs/model/autoloader.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -92,11 +92,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/htdocs/composer.json" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8080">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$/htdocs" port="8080">
       <method v="2" />
     </configuration>
   </component>
@@ -112,7 +108,9 @@
       <workItem from="1601446272513" duration="346000" />
       <workItem from="1601446763496" duration="7805000" />
       <workItem from="1602060485509" duration="3327000" />
-      <workItem from="1604474431224" duration="6147000" />
+      <workItem from="1604474431224" duration="8297000" />
+      <workItem from="1606288192541" duration="9561000" />
+      <workItem from="1606898501388" duration="5482000" />
     </task>
     <task id="LOCAL-00001" summary="Version 07/10">
       <created>1602061062378</created>
@@ -128,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602063121588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="04/11 11h38">
+      <created>1604486380547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604486380547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="04/11 11h38">
+      <created>1604486404621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604486404621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 07/10" />
     <MESSAGE value="Version 07/10 v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 07/10 v2" />
+    <MESSAGE value="04/11 11h38" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/11 11h38" />
   </component>
   <component name="WindowStateProjectService">
     <state x="705" y="344" key="#Notifications" timestamp="1601459470649">
@@ -160,16 +173,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601446839473" />
-    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601448602439">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2334" y="175" width="1092" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606901521593">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600853340793" />
     <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600853917038" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601448602439" />
-    <state x="-1167" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1600851607653">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="2334" y="175" width="1092" height="752" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606901521593" />
+    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1606289998338">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1167" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600851607653" />
+    <state x="753" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606289998338" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604487228885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604487228885" />
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1604475720912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,26 +206,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="218" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459216808" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1601459556641">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1860" height="271" key="GridCell.Tab.0.bottom" timestamp="1606901523672">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1601459556641">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606301646206" />
+    <state width="1860" height="271" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606901523672" />
+    <state width="1860" height="271" key="GridCell.Tab.0.center" timestamp="1606901523672">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1601459556641">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606301646206" />
+    <state width="1860" height="271" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606901523672" />
+    <state width="1860" height="271" key="GridCell.Tab.0.left" timestamp="1606901523671">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1601459556641">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606301646206" />
+    <state width="1860" height="271" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606901523671" />
+    <state width="1860" height="271" key="GridCell.Tab.0.right" timestamp="1606901523672">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601459556641" />
-    <state x="-1184" y="243" key="NewPhpClassDialog" timestamp="1600846851246">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606301646206" />
+    <state width="1860" height="271" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606901523672" />
+    <state x="2656" y="243" key="NewPhpClassDialog" timestamp="1606292001569">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1184" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600846851246" />
+    <state x="736" y="243" key="NewPhpClassDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606289187355" />
+    <state x="2656" y="243" key="NewPhpClassDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606292001569" />
     <state x="-1126" y="443" key="NewPhpFileDialog" timestamp="1600852414244">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -215,9 +240,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602061212449" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602063181857">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604486420624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602063181857" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604486420624" />
   </component>
 </project>

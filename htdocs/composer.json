@@ -13,6 +13,6 @@
     "monolog/monolog": "1.0.*"
   },
   "autoload": {
-    "psr-4": {"model\\": "src/"}
+    "psr-0": {"model\\": "src/"}
   }
 }

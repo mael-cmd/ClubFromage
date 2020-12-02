@@ -2,7 +2,9 @@
 
 namespace model\business;
 
-class membre
+use model\business;
+
+class membre implements \JsonSerializable
 {
     public $_identifiant;
     public $_Nom;
@@ -99,6 +101,27 @@ class membre
     public function setPresent($present)
     {
         $this->_present = $present;
+    }
+
+    public function jsonSerialize()
+    {
+        $array = [
+            'identifiant'=> $this->_identifiant,
+            'Nom'=>$this->_Nom,
+            'pseudo'=>$this->_pseudo,
+            'Email'=>$this->_Email,
+            'DateDerniereConnexion'=>$this->_DateDerniereConnexion,
+            'DateEntreDansClub'=>$this->_DateEntreDansClub,
+            'DescriptionRole'=>$this->_DescriptionRole,
+            'present'=>$this->_present
+        ];
+        return ($array);
+    }
+    public static function jsonParse($jsonEncoded)
+    {
+        $tab = json_decode($jsonEncoded, true);
+        $Membre = new membre($tab);
+        return $Membre;
     }
 
 }
